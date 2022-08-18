@@ -1,0 +1,50 @@
+Selasa, 16 Agustus 2022,
+
+- cr lf => carriage return line feed
+
+- http message dibagi menjadi dua:
+    1. http message by request
+    2. http message by response
+
+- dalam http message terdapat format frame:
+    1. request line
+    2. header
+    3. a blank line
+    4. body (optional)
+
+http request message
+1. request line
+    - method => get, post, update, delet, patch, put, option
+    - sp => space
+    - url
+    - version
+    - crlf
+2. header line
+    - header field name
+    - :
+    - value
+    - crlf
+3. crlf
+4. entity body
+
+http response message
+1. request line
+    - version
+    - sp => space
+    - status code
+    - phrase
+    - crlf
+2. header line
+    - header field name
+    - :
+    - value
+    - crlf
+3. crlf
+4. entity body
+
+http status codes
+1xx => informational
+2xx => success
+3xx => redirection
+4xx => client error
+5xx => server error

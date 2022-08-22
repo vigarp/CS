@@ -432,17 +432,18 @@ Cache-Control: must-revalidate,no-cache,no-store
 
 
 6. Mencari kemungkinan subdomain dengan theHarvester
-(Gambar harvester)
+![Nmap](https://raw.githubusercontent.com/vigarp/CS/main/pertemuan%202/tugas/img/Screenshot_2022-08-22_15-14-13.png)
 
 
 
 Active Reconnaisance:
 - scanning port dengan nmap
-(gambar nmap)
+![Nmap](https://raw.githubusercontent.com/vigarp/CS/main/pertemuan%202/tugas/img/yahoo_whois.png)
 
 - identifikasi teknologi dengan Wapplyzer dan Builtwith
-(gambar wapplyzer)
-(gambar builtwith)
+![Wapplyzer](https://raw.githubusercontent.com/vigarp/CS/main/pertemuan%202/tugas/img/wapplyzer.png)
+![Builtwith](https://raw.githubusercontent.com/vigarp/CS/main/pertemuan%202/tugas/img/builtwith.png)
 
 - menggunakan dirsearch
-output dirsearch
+[`Output Dirsearch`](https://github.com/vigarp/CS/blob/main/pertemuan%202/tugas/dirsearch-yahoo.txt)
+

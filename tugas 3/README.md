@@ -58,3 +58,51 @@ Vulneratibility:
 ![level5_jawaban3](https://res.cloudinary.com/vigarp/image/upload/v1662781425/CS-assets/ss/level5_jawaban3_b1j0lk.png)
 ![level5_jawaban4](https://res.cloudinary.com/vigarp/image/upload/v1662781425/CS-assets/ss/level5_jawaban4_tdjwqg.png)
 
+
+---
+Level 7
+Clue: Login page
+![level7_pertanyaan](https://res.cloudinary.com/vigarp/image/upload/v1662794953/CS-assets/ss/level7_pertanyaan1_m2homt.png)
+Vulneratibility:
+- Mencoba login dengan menggunakan username & password bebas
+![level7_jawaban1](https://res.cloudinary.com/vigarp/image/upload/v1662794953/CS-assets/ss/level7_jawaban1_ajki2h.png)
+- Melihat query string dengan properti message berisi sebuah string
+- ![level7_jawaban2](https://res.cloudinary.com/vigarp/image/upload/v1662794953/CS-assets/ss/level7_jawaban2_qydbcl.png)
+- Merubah string tersebut dengan menggunakan XSS
+![level7_jawaban3](https://res.cloudinary.com/vigarp/image/upload/v1662794953/CS-assets/ss/level7_jawaban2_qydbcl.png)![level7_jawaban4](https://res.cloudinary.com/vigarp/image/upload/v1662794953/CS-assets/ss/level7_jawaban4_ggd4ar.png)
+
+---
+Level 8
+Clue: File Name
+![level8_pertanyaan](https://res.cloudinary.com/vigarp/image/upload/v1662794954/CS-assets/ss/level8_pertanyaan_tzloea.png)
+Vulneratibility:
+- Edit nama file gambar dengan menggunakan <img src=x onerror=alert(1)>
+![level8_jawaban1](https://res.cloudinary.com/vigarp/image/upload/v1662794952/CS-assets/ss/level8_jawaban1_xommni.png)
+- Upload gambar tersebut
+- ![level8_jawaban2](https://res.cloudinary.com/vigarp/image/upload/v1662794953/CS-assets/ss/level8_jawaban2_ajeaio.png)
+- Klik upload
+![level8_jawaban3](https://res.cloudinary.com/vigarp/image/upload/v1662794954/CS-assets/ss/level8_jawaban3_un5cwb.png)
+
+---
+Level 9
+Clue: Base64 Encoding
+![level9_pertanyaan](https://res.cloudinary.com/vigarp/image/upload/v1662794954/CS-assets/ss/level9_pertanyaan_jrtpvg.png)
+Vulneratibility:
+- decode hasil token
+![level9_jawaban1](https://res.cloudinary.com/vigarp/image/upload/v1662794954/CS-assets/ss/level9_jawaban1_rm8rpf.png)
+- encode token dengan XSS script
+![level9_jawaban2](https://res.cloudinary.com/vigarp/image/upload/v1662794955/CS-assets/ss/level9_jawaban2_kvwiy8.png)
+- paste-kan hasil encode XSS tersebut
+![level9_jawaban3](https://res.cloudinary.com/vigarp/image/upload/v1662794954/CS-assets/ss/level9_jawaban3_ntnghv.png)
+
+---
+Level 10
+Clue: Removes Alert
+![level10_pertanyaan](https://res.cloudinary.com/vigarp/image/upload/v1662794954/CS-assets/ss/level9_jawaban3_ntnghv.png)
+Vulneratibility:
+- menggunakan XSS base on alert();
+![level10_jawaban1](https://res.cloudinary.com/vigarp/image/upload/v1662794954/CS-assets/ss/level9_jawaban3_ntnghv.png)
+- Melihat page source, bahwa fungsi alert() terindikasi filter
+![level10_jawaban2](https://res.cloudinary.com/vigarp/image/upload/v1662794955/CS-assets/ss/level10_jawaban2_vhlvrt.png)
+- Menggunakan fungsi prompt()
+- ![level10_jawaban3](https://res.cloudinary.com/vigarp/image/upload/v1662794955/CS-assets/ss/level10_jawaban3_inhmiw.png)
